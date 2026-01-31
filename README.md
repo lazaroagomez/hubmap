@@ -24,7 +24,7 @@ To adapt for a different hub, you may need to modify the hub detection in `scrip
 
 - Windows 10/11
 - Node.js >= 14
-- PowerShell 5.1+ (uses `Get-PnpDevice` cmdlet)
+- PowerShell 7+ (uses `Get-PnpDevice` cmdlet)
 
 ## Usage
 
