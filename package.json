@@ -1,0 +1,22 @@
+{
+  "name": "usb-port-mapper",
+  "version": "1.0.0",
+  "description": "CLI tool to map USB drives to physical hub port numbers",
+  "main": "index.js",
+  "bin": {
+    "usb-mapper": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "calibrate": "node index.js calibrate",
+    "status": "node index.js status",
+    "monitor": "node index.js monitor"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "os": [
+    "win32"
+  ],
+  "license": "MIT"
+}
